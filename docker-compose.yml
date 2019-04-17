@@ -5,10 +5,9 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    # image: investigate-volumes
-    # container_name: investigate-volumes
-#     # volumes:
-#     #   - node_modules:/app/node_modules
+    container_name: investigate-volumes
+    volumes:
+      - node_modules:/app/node_modules
 
-# volumes:
-#   node_modules:
+volumes:
+  node_modules:

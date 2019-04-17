@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ramda": "0.25.0"
+    "puppeteer": "1.13.0"
   }
 }
